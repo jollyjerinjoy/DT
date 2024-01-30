@@ -336,7 +336,7 @@
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
-            <version>1.6.12</version>
+            <version>1.9.21</version>
         </dependency>
 
         <!-- Logging -->
@@ -446,7 +446,7 @@
                         <phase>prepare-package</phase>
                         <configuration>
                             <target>
-                                <copy file="${project.build.directory}/classes/messages_en.properties" tofile="${project.build.directory}/classes/messages.properties" />
+                                <copy file="${project.build.directory}/classes/messages_en.properties" tofile="${project.build.directory}/classes/messages.properties"/>
                             </target>
                         </configuration>
                         <goals>
