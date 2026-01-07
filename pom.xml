@@ -113,7 +113,7 @@
         <dependency>
             <artifactId>owasp-java-html-sanitizer</artifactId>
             <groupId>com.googlecode.owasp-java-html-sanitizer</groupId>
-            <version>r209</version>
+            <version>20260101.1</version>
         </dependency>
         <dependency>
             <groupId>org.owasp.encoder</groupId>
@@ -446,7 +446,7 @@
                         <phase>prepare-package</phase>
                         <configuration>
                             <target>
-                                <copy file="${project.build.directory}/classes/messages_en.properties" tofile="${project.build.directory}/classes/messages.properties" />
+                                <copy file="${project.build.directory}/classes/messages_en.properties" tofile="${project.build.directory}/classes/messages.properties"/>
                             </target>
                         </configuration>
                         <goals>
